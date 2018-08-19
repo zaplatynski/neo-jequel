@@ -2,25 +2,70 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.jexp</groupId>
-	<artifactId>neo-jequel</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<parent>
 		<groupId>com.github.zaplatynski</groupId>
 		<artifactId>java-bom</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<properties>
-		<java.version>1.6</java.version>
-	</properties>
+	<groupId>de.jexp</groupId>
+	<artifactId>jequel-parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>2.5.5</version>
-		</dependency>
-	</dependencies>
+	<name>JeQuEl</name>
+	<description>Java Query Expression Language: Java DSL to write SQL queries</description>
+	<url>https://zaplatynski.github.io/neo-jequel</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://opensource.org/licenses/Apache-2.0</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Michael Hunger</name>
+			<email>github@jexp.de</email>
+			<url>http://jexp.de/</url>
+			<roles>
+				<role>original author</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Marian Zaplatynski</name>
+			<email>marza@marza.de</email>
+			<roles>
+				<role>maintainer</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/zaplatynski/neo-jequel/issues</url>
+	</issueManagement>
+
+	<ciManagement>
+		<system>travis</system>
+		<url>https://travis-ci.org/zaplatynski/neo-jequel</url>
+	</ciManagement>
+
+	<scm>
+		<url>https://github.com/zaplatynski/neo-jequel</url>
+		<connection>scm:git:https://github.com/zaplatynski/neo-jequel.git</connection>
+		<developerConnection>scm:git:https://github.com/zaplatynski/neo-jequel.git</developerConnection>
+	</scm>
+
+	<modules>
+		<module>jequel-core</module>
+		<module>jequel-spring</module>
+	</modules>
 
 </project>
