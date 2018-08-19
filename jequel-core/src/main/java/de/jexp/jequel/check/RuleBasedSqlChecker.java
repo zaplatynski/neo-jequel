@@ -1,14 +1,14 @@
 package de.jexp.jequel.check;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import de.jexp.jequel.expression.Aliased;
 import de.jexp.jequel.expression.Expression;
 import de.jexp.jequel.expression.ExpressionProcessor;
 import de.jexp.jequel.sql.Sql;
 import de.jexp.jequel.table.Field;
 import de.jexp.jequel.table.Table;
-
-import java.util.ArrayList;
-import java.util.Collection;
 
 /**
  * @author mh14 @ jexp.de

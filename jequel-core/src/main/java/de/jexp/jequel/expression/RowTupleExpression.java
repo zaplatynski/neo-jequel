@@ -1,8 +1,8 @@
 package de.jexp.jequel.expression;
 
-import de.jexp.jequel.Delimeter;
-
 import java.util.Collection;
+
+import de.jexp.jequel.Delimeter;
 
 /**
  * @author mh14 @ jexp.de

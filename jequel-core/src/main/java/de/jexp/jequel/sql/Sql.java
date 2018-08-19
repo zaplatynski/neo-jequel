@@ -1,15 +1,17 @@
 package de.jexp.jequel.sql;
 
+import static de.jexp.jequel.expression.Expressions.toCollection;
+
+import java.util.Collection;
+
+import javax.sql.DataSource;
+
 import de.jexp.jequel.Delimeter;
 import de.jexp.jequel.execute.ExecutableStatement;
 import de.jexp.jequel.expression.BooleanExpression;
 import de.jexp.jequel.expression.Expression;
-import static de.jexp.jequel.expression.Expressions.*;
 import de.jexp.jequel.expression.RowTupleExpression;
 import de.jexp.jequel.literals.SelectKeyword;
-
-import javax.sql.DataSource;
-import java.util.Collection;
 
 /**
  * @author mh14 @ jexp.de

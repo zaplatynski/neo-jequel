@@ -1,13 +1,13 @@
 package de.jexp.jequel.table;
 
-import de.jexp.jequel.Delimeter;
-import de.jexp.jequel.expression.RowTupleExpression;
-
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.LinkedHashMap;
 import java.util.Map;
+
+import de.jexp.jequel.Delimeter;
+import de.jexp.jequel.expression.RowTupleExpression;
 
 /**
  * @author mh14 @ jexp.de

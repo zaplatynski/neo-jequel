@@ -1,14 +1,24 @@
 package de.jexp.jequel.expression;
 
-import de.jexp.jequel.Delimeter;
-import de.jexp.jequel.literals.Operator;
-import de.jexp.jequel.literals.UnaryOperator;
-import static de.jexp.jequel.literals.UnaryOperator.*;
+import static de.jexp.jequel.literals.UnaryOperator.AVG;
+import static de.jexp.jequel.literals.UnaryOperator.COUNT;
+import static de.jexp.jequel.literals.UnaryOperator.EXISTS;
+import static de.jexp.jequel.literals.UnaryOperator.MAX;
+import static de.jexp.jequel.literals.UnaryOperator.MIN;
+import static de.jexp.jequel.literals.UnaryOperator.NOT;
+import static de.jexp.jequel.literals.UnaryOperator.NOT_EXISTS;
+import static de.jexp.jequel.literals.UnaryOperator.ROUND;
+import static de.jexp.jequel.literals.UnaryOperator.SUM;
+import static de.jexp.jequel.literals.UnaryOperator.TO_NUMBER;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
+
+import de.jexp.jequel.Delimeter;
+import de.jexp.jequel.literals.Operator;
+import de.jexp.jequel.literals.UnaryOperator;
 
 /**
  * @author mh14 @ jexp.de

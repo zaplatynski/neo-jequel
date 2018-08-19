@@ -1,9 +1,9 @@
 package de.jexp.jequel.sql;
 
+import javax.sql.DataSource;
+
 import de.jexp.jequel.execute.ExecutableStatement;
 import de.jexp.jequel.util.ClassUtils;
-
-import javax.sql.DataSource;
 
 /**
  * @author mh14 @ jexp.de

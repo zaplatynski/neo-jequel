@@ -1,9 +1,9 @@
 package de.jexp.jequel.jdbc.beanprocessor;
 
-import org.springframework.jdbc.core.RowMapper;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
 
 /**
  * @author mh14 @ jexp.de

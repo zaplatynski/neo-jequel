@@ -1,12 +1,12 @@
 package de.jexp.jequel.jdbc.valuehandler;
 
-import org.springframework.dao.TypeMismatchDataAccessException;
-import org.springframework.jdbc.core.SingleColumnRowMapper;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.springframework.dao.TypeMismatchDataAccessException;
+import org.springframework.jdbc.core.SingleColumnRowMapper;
 
 /**
  * @author mh14 @ jexp.de

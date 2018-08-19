@@ -1,13 +1,13 @@
 package de.jexp.jequel.jdbc.valuehandler;
 
-import de.jexp.jequel.jdbc.ResultSetUtils;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
+
+import de.jexp.jequel.jdbc.ResultSetUtils;
 
 /**
  * @author mh14 @ jexp.de

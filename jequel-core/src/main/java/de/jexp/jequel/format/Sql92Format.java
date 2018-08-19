@@ -1,18 +1,40 @@
 package de.jexp.jequel.format;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
 import de.jexp.jequel.Delimeter;
-import de.jexp.jequel.expression.*;
+import de.jexp.jequel.expression.Aliased;
+import de.jexp.jequel.expression.BinaryExpression;
+import de.jexp.jequel.expression.BooleanBinaryExpression;
+import de.jexp.jequel.expression.BooleanConstantExpression;
+import de.jexp.jequel.expression.BooleanExpression;
+import de.jexp.jequel.expression.BooleanUnaryExpression;
+import de.jexp.jequel.expression.ColumnTupleExpression;
+import de.jexp.jequel.expression.ConstantExpression;
+import de.jexp.jequel.expression.Expression;
+import de.jexp.jequel.expression.ExpressionAlias;
+import de.jexp.jequel.expression.MutableBooleanExpression;
+import de.jexp.jequel.expression.NumericBinaryExpression;
+import de.jexp.jequel.expression.NumericExpression;
+import de.jexp.jequel.expression.NumericUnaryExpression;
+import de.jexp.jequel.expression.ParamExpression;
+import de.jexp.jequel.expression.RowTupleExpression;
+import de.jexp.jequel.expression.StringExpression;
+import de.jexp.jequel.expression.TupleExpression;
+import de.jexp.jequel.expression.UnaryExpression;
 import de.jexp.jequel.literals.NameUtils;
 import de.jexp.jequel.literals.Operator;
 import de.jexp.jequel.literals.SqlKeyword;
 import de.jexp.jequel.sql.SelectPartColumnTupleExpression;
 import de.jexp.jequel.sql.SelectPartMutableBooleanExpression;
 import de.jexp.jequel.sql.Sql;
-import de.jexp.jequel.table.*;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import de.jexp.jequel.table.BaseTable;
+import de.jexp.jequel.table.Field;
+import de.jexp.jequel.table.ForeignKey;
+import de.jexp.jequel.table.JoinTable;
+import de.jexp.jequel.table.TableField;
 
 /**
  * @author mh14 @ jexp.de

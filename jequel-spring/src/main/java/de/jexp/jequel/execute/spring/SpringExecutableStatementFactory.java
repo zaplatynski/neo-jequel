@@ -1,11 +1,11 @@
 package de.jexp.jequel.execute.spring;
 
+import javax.sql.DataSource;
+
 import de.jexp.jequel.execute.ExecutableStatement;
 import de.jexp.jequel.execute.core.DefaultExecutableParams;
 import de.jexp.jequel.sql.ExecutableStatementFactory;
 import de.jexp.jequel.sql.Sql;
-
-import javax.sql.DataSource;
 
 /**
  * @author mh14 @ jexp.de

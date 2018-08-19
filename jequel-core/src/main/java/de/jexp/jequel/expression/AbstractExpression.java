@@ -1,6 +1,7 @@
 package de.jexp.jequel.expression;
 
-import static de.jexp.jequel.expression.Expressions.*;
+import static de.jexp.jequel.expression.Expressions.e;
+
 import de.jexp.jequel.literals.Operator;
 
 /**

@@ -1,13 +1,13 @@
 package de.jexp.jequel.jdbc.beanprocessor;
 
-import de.jexp.jequel.jdbc.ResultSetUtils;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Map;
+
+import de.jexp.jequel.jdbc.ResultSetUtils;
 
 /**
  * @author mh14 @ jexp.de

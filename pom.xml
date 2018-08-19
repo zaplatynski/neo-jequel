@@ -66,6 +66,7 @@
 	<modules>
 		<module>jequel-core</module>
 		<module>jequel-spring</module>
+		<module>jequel-test</module>
 	</modules>
 
 </project>

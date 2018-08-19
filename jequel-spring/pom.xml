@@ -7,7 +7,7 @@
 		<artifactId>jequel-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<artifactId>jequel-spring</artifactId>
 	<name>JeQuEl Spring</name>
 
@@ -17,6 +17,25 @@
 			<artifactId>jequel-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>de.jexp</groupId>
+			<artifactId>jequel-core</artifactId>
+			<version>${project.version}</version>
+			<classifier>tests</classifier>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>de.jexp</groupId>
+			<artifactId>jequel-test</artifactId>
+			<version>${project.version}</version>
+			<classifier>tests</classifier>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>

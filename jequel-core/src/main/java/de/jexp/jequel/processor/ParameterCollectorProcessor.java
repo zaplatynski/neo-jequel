@@ -1,11 +1,11 @@
 package de.jexp.jequel.processor;
 
-import de.jexp.jequel.expression.Expression;
-import de.jexp.jequel.expression.ParamExpression;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+
+import de.jexp.jequel.expression.Expression;
+import de.jexp.jequel.expression.ParamExpression;
 
 /**
  * @author mh14 @ jexp.de

@@ -1,10 +1,10 @@
 package de.jexp.jequel.expression;
 
-import de.jexp.jequel.literals.Operator;
-import de.jexp.jequel.literals.SqlKeyword;
-
 import java.util.Arrays;
 import java.util.Collection;
+
+import de.jexp.jequel.literals.Operator;
+import de.jexp.jequel.literals.SqlKeyword;
 
 /**
  * @author mh14 @ jexp.de

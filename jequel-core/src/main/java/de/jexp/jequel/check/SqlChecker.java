@@ -1,5 +1,10 @@
 package de.jexp.jequel.check;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+
 import de.jexp.jequel.expression.Aliased;
 import de.jexp.jequel.expression.Expression;
 import de.jexp.jequel.expression.ExpressionProcessor;
@@ -8,11 +13,6 @@ import de.jexp.jequel.processor.AbstractExpressionProcessor;
 import de.jexp.jequel.sql.SelectPartExpression;
 import de.jexp.jequel.sql.Sql;
 import de.jexp.jequel.table.Field;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
 
 /**
  * @author mh14 @ jexp.de
