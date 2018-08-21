@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>jequel-core</artifactId>
-	<name>JeQuEl Core</name>
+	<name>JEQuEL Core</name>
 
 	<dependencies>
 		<dependency>

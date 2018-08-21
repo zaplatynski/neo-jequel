@@ -14,8 +14,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>JeQuEl</name>
-	<description>Java Query Expression Language: Java DSL to write SQL queries</description>
+	<name>JEQuEL Parent</name>
+	<description>Java Entity Query Expression Language: Java DSL to write SQL queries</description>
 	<url>https://zaplatynski.github.io/neo-jequel</url>
 
 	<licenses>
