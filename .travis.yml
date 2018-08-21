@@ -4,4 +4,4 @@ cache:
     - ~/.m2
 script: mvn -B clean package
 install:
-    -
+    - 
