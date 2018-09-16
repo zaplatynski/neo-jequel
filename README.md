@@ -6,7 +6,7 @@ Originally by [Michael Hunger](https://github.com/jexp). Maintained and reviewed
 
 ### A Domain Specific Language for the Structured Query Language (SQL) embedded in Java
 
-####How it all began
+#### How it all began
 
 After dealing with DSL theoretically for a while, this is my second experiment with implementing an embedded DSL in Java.
 
