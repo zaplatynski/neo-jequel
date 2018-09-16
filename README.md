@@ -2,16 +2,22 @@
 
 ## Java Embedded QUEry Language
 
-Originally by [Michael Hunger](https://github.com/jexp). Maintained and reviewed with Maven as build tool by Marian Zaplatynski.
-
 ### A Domain Specific Language for the Structured Query Language (SQL) embedded in Java
 
-### Versioning
+Originally by [Michael Hunger](https://github.com/jexp). Maintained and reviewed with Maven as build tool by Marian Zaplatynski.
+
+#### Versioning
 
 The old JEQUEL had a Subversion revisions only. Since Maven was introduced we need proper versioning. So the r120 from 2007 is turned into 1.2.0.
 So the first version of this Git repository is 1.2.1-SNAPSHOT.
 
+#### Maven modules and dependencies
+
+Coming soon. There are no Maven Central artifacts yet.
+
 #### How it all began
+
+(By Michael Hunger)
 
 After dealing with DSL theoretically for a while, this is my second experiment with implementing an embedded DSL in Java.
 
@@ -101,3 +107,14 @@ public void testSimpleSql() {
 * deprecate tables and columns
 * use descriptive table and column names that are mapped to (inflexible?) existing database schema 
 
+### How to build from sources
+
+[Apache Maven](https://maven.apache.org/) is used to build the project.
+
+```
+mvn clean install
+```
+
+*Prerequisites:*
+* Java 8
+* Maven 3.5+ 
