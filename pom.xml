@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.github.zaplatynski</groupId>
 		<artifactId>java-bom</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>1.1.0</version>
 	</parent>
 
 	<groupId>de.jexp</groupId>

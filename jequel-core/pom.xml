@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>de.jexp</groupId>
 		<artifactId>jequel-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.2.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>jequel-core</artifactId>
