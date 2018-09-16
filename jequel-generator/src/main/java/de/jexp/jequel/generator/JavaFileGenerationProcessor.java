@@ -1,11 +1,11 @@
 package de.jexp.jequel.generator;
 
+import java.io.File;
+
 import de.jexp.jequel.generator.data.SchemaMetaData;
 import de.jexp.jequel.generator.data.TableMetaData;
 import de.jexp.jequel.generator.data.TableMetaDataColumn;
 import de.jexp.jequel.util.FileUtils;
-
-import java.io.File;
 
 /**
  * @author mh14 @ jexp.de

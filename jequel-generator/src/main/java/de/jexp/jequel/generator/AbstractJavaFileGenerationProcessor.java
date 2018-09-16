@@ -1,12 +1,16 @@
 package de.jexp.jequel.generator;
 
-import de.jexp.jequel.generator.data.*;
-import de.jexp.jequel.table.BaseTable;
-import de.jexp.jequel.table.Field;
-
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.sql.Timestamp;
+
+import de.jexp.jequel.generator.data.MetaDataElement;
+import de.jexp.jequel.generator.data.SchemaMetaData;
+import de.jexp.jequel.generator.data.SchemaMetaDataProcessor;
+import de.jexp.jequel.generator.data.TableMetaData;
+import de.jexp.jequel.generator.data.TableMetaDataColumn;
+import de.jexp.jequel.table.BaseTable;
+import de.jexp.jequel.table.Field;
 
 /**
  * @author mh14 @ jexp.de

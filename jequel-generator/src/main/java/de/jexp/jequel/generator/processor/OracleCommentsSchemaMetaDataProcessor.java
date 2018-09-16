@@ -3,21 +3,24 @@
  */
 package de.jexp.jequel.generator.processor;
 
-import static de.jexp.jequel.expression.Expressions.*;
-import de.jexp.jequel.generator.data.SchemaMetaData;
-import de.jexp.jequel.generator.data.SchemaMetaDataProcessor;
-import de.jexp.jequel.generator.data.TableMetaData;
-import de.jexp.jequel.generator.data.TableMetaDataColumn;
-import static de.jexp.jequel.sql.Sql.*;
-import de.jexp.jequel.table.BaseTable;
-import de.jexp.jequel.table.Field;
+import static de.jexp.jequel.expression.Expressions.NULL;
+import static de.jexp.jequel.expression.Expressions.param;
+import static de.jexp.jequel.sql.Sql.Select;
 
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Collection;
+
+import javax.sql.DataSource;
+
+import de.jexp.jequel.generator.data.SchemaMetaData;
+import de.jexp.jequel.generator.data.SchemaMetaDataProcessor;
+import de.jexp.jequel.generator.data.TableMetaData;
+import de.jexp.jequel.generator.data.TableMetaDataColumn;
+import de.jexp.jequel.table.BaseTable;
+import de.jexp.jequel.table.Field;
 
 /**
  * Created: mhu@salt-solutions.de 19.10.2007 16:57:28

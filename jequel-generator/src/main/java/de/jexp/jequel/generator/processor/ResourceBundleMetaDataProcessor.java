@@ -1,10 +1,15 @@
 package de.jexp.jequel.generator.processor;
 
-import de.jexp.jequel.generator.data.*;
-import de.jexp.jequel.util.CollectionUtils;
-
 import java.util.Collection;
 import java.util.ResourceBundle;
+
+import de.jexp.jequel.generator.data.MetaDataElement;
+import de.jexp.jequel.generator.data.SchemaMetaData;
+import de.jexp.jequel.generator.data.SchemaMetaDataProcessor;
+import de.jexp.jequel.generator.data.TableMetaData;
+import de.jexp.jequel.generator.data.TableMetaDataColumn;
+import de.jexp.jequel.generator.data.TableMetaDataIteratorCallback;
+import de.jexp.jequel.util.CollectionUtils;
 
 /**
  * @author mh14 @ jexp.de
