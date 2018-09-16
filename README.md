@@ -2,7 +2,7 @@
 
 ## Java Embedded QUEry Language
 
-Originally by @jexp. Maintained and reviewed with Maven as build tool by Marian Zaplatynski.
+Originally by [Michael Hunger](https://github.com/jexp). Maintained and reviewed with Maven as build tool by Marian Zaplatynski.
 
 ### A Domain Specific Language for the Structured Query Language (SQL) embedded in Java
 
