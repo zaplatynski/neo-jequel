@@ -6,6 +6,11 @@ Originally by [Michael Hunger](https://github.com/jexp). Maintained and reviewed
 
 ### A Domain Specific Language for the Structured Query Language (SQL) embedded in Java
 
+### Versioning
+
+The old JEQUEL had a Subversion revisions only. Since Maven was introduced we need proper versioning. So the r120 from 2007 is turned into 1.2.0.
+So the first version of this Git repository is 1.2.1-SNAPSHOT.
+
 #### How it all began
 
 After dealing with DSL theoretically for a while, this is my second experiment with implementing an embedded DSL in Java.
