@@ -1,4 +1,4 @@
-# Neo JEQUEL [![Build Status](https://travis-ci.org/zaplatynski/neo-jequel.svg?branch=master)](https://travis-ci.org/zaplatynski/neo-jequel)
+# Neo JEQUEL [![Build Status](https://travis-ci.org/zaplatynski/neo-jequel.svg?branch=master)](https://travis-ci.org/zaplatynski/neo-jequel) [![Coverage Status](https://coveralls.io/repos/github/zaplatynski/jequel/badge.svg?branch=master)](https://coveralls.io/github/zaplatynski/jequel?branch=master)
 
 ## Java Embedded QUEry Language
 
