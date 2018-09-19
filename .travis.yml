@@ -3,7 +3,7 @@ cache:
   directories:
     - ~/.m2
 install:
-  - mvn test-compile -DskipTests=true -B -V -P analysis
+  - mvn test-compile -DskipTests=true -B -V
 script:
   - mvn test jacoco:report -P coverage
 after_success:
