@@ -2,8 +2,9 @@ language: java
 cache:
   directories:
     - ~/.m2
-script: mvn -B clean package
 install:
-    - 
+  - mvn test-compile -DskipTests=true -B -V -P analysis
+script:
+  - mvn test jacoco:report -P coverage
 after_success:
-    - mvn -B clean test jacoco:report coveralls:report -P coverage
+  - mvn coveralls:report -P coverage
