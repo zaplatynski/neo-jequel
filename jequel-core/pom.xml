@@ -10,7 +10,8 @@
 	</parent>
 
 	<artifactId>jequel-core</artifactId>
-	<name>JEQuEL Core</name>
+	<name>JEQUEL Core</name>
+	<description>Java Embedded QUEry Language Core</description>
 
 	<dependencies>
 		<dependency>

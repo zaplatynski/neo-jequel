@@ -9,8 +9,8 @@
 	</parent>
 
 	<artifactId>jequel-spring</artifactId>
-	<name>JEQuEL Spring</name>
-	<description>JEQuEL with Spring JDBC 2.5.5 is an optional add-on</description>
+	<name>JEQUEL Spring</name>
+	<description>Java Embedded QUEry Language with Spring JDBC 2.5.5 is an optional add-on</description>
 
 	<dependencies>
 		<dependency>
